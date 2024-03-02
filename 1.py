@@ -10,10 +10,10 @@ text = pytesseract.image_to_string(img)
 # f.writelines(text)
 txt= text.replace("\n", "")
 numOfDate = txt.find('Preferred start date')
-numOfAccountNum = txt.find('(user number)')
+numOfAccountNum = txt.find('payments to be made')
 # print(numOfDate)
 # print(numOfAccountNum)
-useraccount_number = txt[numOfAccountNum+13: numOfAccountNum+28]
+useraccount_number = txt[numOfAccountNum+19: numOfAccountNum+33]
 # print(useraccount_number)
 preferred_start_date = txt[numOfDate+20: numOfDate+30]
 # print(preferred_start_date)
