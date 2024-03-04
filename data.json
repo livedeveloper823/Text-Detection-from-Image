@@ -1,1 +1,9 @@
-{"useraccout_number": "06017706345000", "preferred_start_date": "26/02/2024"}
+{
+  "useraccout_number": "0601770634500",
+  "preferred_start_date": "26/02/2024",
+  "bank_address": "395 Great South Road, Greenlane, Auckland 1051",
+  "authentication_code": "0322025",
+  "payer_particular": "HEAR AND",
+  "payer_code": "car foah",
+  "payer_reference": "GLB240"
+}
